@@ -1,0 +1,12 @@
+com\vehector\nextstaffchat\velocity\managers\VelocityToggleManager.class
+com\vehector\nextstaffchat\velocity\commands\StaffChatVelocityCommand.class
+com\vehector\nextstaffchat\velocity\managers\VelocityConfigManager.class
+com\vehector\nextstaffchat\velocity\utils\VelocityColorUtil.class
+com\vehector\nextstaffchat\velocity\listeners\VelocityPluginMessageListener.class
+com\vehector\nextstaffchat\velocity\commands\NextStaffChatVelocityCommand.class
+com\vehector\nextstaffchat\velocity\managers\VelocityMuteManager.class
+com\vehector\nextstaffchat\velocity\listeners\VelocityChatListener.class
+com\vehector\nextstaffchat\velocity\listeners\ConnectionListener.class
+com\vehector\nextstaffchat\velocity\managers\VelocityLogManager.class
+com\vehector\nextstaffchat\velocity\NextStaffChatVelocity.class
+com\vehector\nextstaffchat\velocity\managers\VelocityStaffChatService.class

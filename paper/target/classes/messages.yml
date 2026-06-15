@@ -1,0 +1,34 @@
+# =========================================================================
+#  NextStaffChat - Messages (Paper)
+#  100% customizable. Supports:
+#    - Legacy:     &a &b &l ...
+#    - Hex:        &#FF00AA   or   <#FF00AA>
+#    - MiniMessage: <red>, <gradient:red:blue>, <rainbow>, <bold>, etc.
+#    - PlaceholderAPI: %papi_xxx%   (if PlaceholderAPI is installed)
+# =========================================================================
+
+# Main staff-chat message format. Sent to every player with
+# nextstaffchat.use permission.
+chat-format: "<gray>[<dark_red><bold>STAFF</bold></dark_red>]</gray> <gold>%server%</gold> <dark_gray>|</dark_gray> <yellow>%rank%</yellow> <gray>%player%</gray> <dark_gray>»</dark_gray> <white>%message%"
+
+# Sent when a staff member joins the network/server.
+join-format: "<gray>[<dark_red><bold>STAFF</bold></dark_red>]</gray> <green>+</green> <yellow>%rank%</yellow> <gray>%player%</gray> <green>joined</green> <dark_gray>(</dark_gray><gold>%server%</gold><dark_gray>)</dark_gray>"
+
+# Sent when a staff member disconnects from the network/server.
+leave-format: "<gray>[<dark_red><bold>STAFF</bold></dark_red>]</gray> <red>-</red> <yellow>%rank%</yellow> <gray>%player%</gray> <red>left</red> <dark_gray>(</dark_gray><gold>%server%</gold><dark_gray>)</dark_gray>"
+
+# Sent when a staff member switches server (only meaningful behind Velocity).
+switch-format: "<gray>[<dark_red><bold>STAFF</bold></dark_red>]</gray> <aqua>»</aqua> <yellow>%rank%</yellow> <gray>%player%</gray> <white>moved</white> <dark_gray>(</dark_gray><red>%from%</red> <gray>→</gray> <green>%to%</green><dark_gray>)</dark_gray>"
+
+# Sent when a staff member changes their gamemode.
+gamemode-format: "<gray>[<dark_red><bold>STAFF</bold></dark_red>]</gray> <light_purple>⚙</light_purple> <yellow>%rank%</yellow> <gray>%player%</gray> <white>now in</white> <aqua>%gamemode%</aqua> <dark_gray>(</dark_gray><gold>%server%</gold><dark_gray>)</dark_gray>"
+
+# Feedback messages
+toggle-on:  "<green>Staff chat <bold>enabled</bold>. All your messages now go to the staff chat.</green>"
+toggle-off: "<red>Staff chat <bold>disabled</bold>. Messages will go to public chat again.</red>"
+toggle-disabled: "<red>Staff chat toggling is disabled in the config.</red>"
+no-permission: "<red>You don't have permission to use the staff chat.</red>"
+mute-on:  "<gray>You will no longer receive staff chat messages.</gray>"
+mute-off: "<gray>You will now receive staff chat messages again.</gray>"
+reload-success: "<green>NextStaffChat configuration reloaded.</green>"
+usage: "<gray>Usage: /sc [message]   |   /sc (toggle)</gray>"

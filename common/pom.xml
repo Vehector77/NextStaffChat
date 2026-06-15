@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.vehector</groupId>
+        <artifactId>nextstaffchat-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>nextstaffchat-common</artifactId>
+    <packaging>jar</packaging>
+</project>

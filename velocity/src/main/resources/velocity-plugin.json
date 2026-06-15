@@ -1,0 +1,9 @@
+{
+  "id": "nextstaffchat",
+  "name": "NextStaffChat",
+  "version": "${project.version}",
+  "description": "Fully customizable cross-server staff chat",
+  "authors": ["Vehector"],
+  "dependencies": [],
+  "main": "com.vehector.nextstaffchat.velocity.NextStaffChatVelocity"
+}
